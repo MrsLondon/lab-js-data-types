@@ -8,7 +8,7 @@ const s4 = "bread";
 const s5 = "and";
 
 // Concatenate the string variables into one new string
-const tongueTwister = s1 + " " + s2 + " " + s3 + " " + s4 + " " + s5;
+const tongueTwister = s1 + ' ' + s2 + ' ' + s3 + ' ' + s4 + ' ' + s5 + ' ' + s3 + ' ' + s2 + ' ' + s1 + ' ' + s4;
 
 // Print out the concatenated string
 
@@ -51,8 +51,8 @@ console.log(tipAmount);
 *******************************************/
 
 // Generate a random integer between 1 and 10 (inclusive)
-const randomNumber = Math.floor(Math.random() * 11); 
-//const randomNumber = Math.floor(Math.random() * 10) + 1; beause random*10 will only do until 9 
+//const randomNumber = Math.floor(Math.random() * 11);  beause random*10 will only do until 9 
+const randomNumber = Math.floor(Math.random() * 10) + 1;
 
 // Print the generated random number
 console.log(randomNumber);
